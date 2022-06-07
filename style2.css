@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+body{
+    background-color: rgb(8, 202, 236);
+    font-family: 'Indie Flower', cursive;
+}
+
+.container{
+  width: 400px;
+  height: 600px;
+  box-shadow: 0px 0px 10px;
+  padding: 15px;
+  background-color: rgb(0, 140, 255);
+  border-radius: 20px
+}
+
+button{
+   
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    width: 180px;
+    margin-top:20px;
+    padding:10px;
+    background-color: rgb(8, 202, 236);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 20px
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    border-bottom: solid 5px rgb(0, 255, 213);
+    margin-bottom: 20px;
+  }
+
+  .input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+  }  
+
+  .input label {
+    font-family: 'Indie Flower', cursive;
+  }
+
+  input[type='number'] {
+      font-family: 'Indie Flower', cursive;
+      font-size: 20px;
+      width: 180px;
+      height: 30px;
+    border-radius: 10px
+}
+
+input[type='text'] {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    width: 180px;
+    height: 30px;
+  border-radius: 10px
+}
+
+  .result {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+  }
